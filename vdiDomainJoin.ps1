@@ -6,7 +6,7 @@
 # This script is free to use. Please adjust the below fields to make it work in your environment.
 #
 # GoldImageName = What gold image name you are using as a template for full clones
-# DOMAIN="acme.com" = change to your domain name
+# $DOMAIN="acme.com" = change to your domain name
 # $UATOU = Change to the correct OU in your environment where you want the full clones to reside
 # $User = Change to your domain\username that has an account with permissions to join/remove machines to the domain.
 # $PasswordFile = This script assumes you are using an AES encrypted password file located in the temp folder location. 
