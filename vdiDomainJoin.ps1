@@ -14,14 +14,14 @@ Function LogWrite
 }
 
 # Domain Join OU & Account Details
-$DOMAIN="vmbucket.com" # Domain Name
+$DOMAIN="acme.com" # Domain Name
 
 # OU Path
-$UATOU = "OU=Full Clones,OU=Persistent,OU=Workloads,OU=View,DC=vmbucket,DC=com" 
+$UATOU = "OU=Full Clones,OU=Persistent,OU=Workloads,OU=View,DC=acme,DC=com" 
 
 # Credentials needed when launching
 
-$User = "vmbucket\iclone" # User Account
+$User = "acme\myaccount" # User Account
 $PasswordFile = "C:\Temp\AESDomain.txt" # Encrypted Password File
 $KeyFile = "C:\Temp\AESDomainJoin.key" # AES Key File
 $key = Get-Content $KeyFile
