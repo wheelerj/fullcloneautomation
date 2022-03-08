@@ -1,5 +1,15 @@
 ﻿#Variable Section
 
+#
+# This script is free to use in your environment, please adjust the below feields to make it work in your environment.
+# GoldImageName = What gold image name you are using as a template for full clones
+# DOMAIN="acme.com" = change to your domain name
+# $UATOU = Change to the correct OU in your ennvironment where you want the full clones to reside
+# $User = Change to your domain\username that has an account with permissions to join/remove machines to the domain.
+# $PasswordFile = This script assumes you are using an AES encrypted password file located in the temp folder location. 
+#                 Please reference the following link for instructions for how to generate an AES encrypted password file.
+#
+
 $GoldImageName = "WIN10FULLC1" # Change this to match the Gold Image Computer Name
 $ver = "v1"
 $Logfile = "C:\temp\DomainJoin-$ver.log" # Log file location
